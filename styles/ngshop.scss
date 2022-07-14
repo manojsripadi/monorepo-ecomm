@@ -1,0 +1,16 @@
+//Base
+@import './base/color.scss';
+@import './base/font.scss';
+@import './base/mixins.scss';
+@import './base/configuration.scss';
+
+//pages
+@import '../styles//apps/shop/pages/home-page.scss';
+@import '../styles/apps/shop/pages/product-list-pages.scss';
+
+//shared
+@import '../styles/apps/shop/shared/header.scss';
+@import '../styles/apps/shop/shared/footer.scss';
+
+//libs
+@import '../styles/libs/ui/ui.scss';

@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@psecomm/orders": ["libs/orders/src/index.ts"],
+      "@psecomm/products": ["libs/products/src/index.ts"],
+      "@psecomm/ui": ["libs/ui/src/index.ts"],
+      "@psecomm/users": ["libs/users/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
